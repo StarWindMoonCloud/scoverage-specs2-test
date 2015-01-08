@@ -10,14 +10,14 @@
 
     <properties>
         <scoverage.plugin.version>1.0.2</scoverage.plugin.version>
-        <!--<scala.version>2.10.3</scala.version>-->
+        <scala.version>2.10.3</scala.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.10.3</version>
+            <version>${scala.version}</version>
         </dependency>
 
         <dependency>
@@ -35,6 +35,8 @@
                 <version>3.2.0</version>
                 <configuration>
                     <checkMultipleScalaVersions>false</checkMultipleScalaVersions>
+                    <sourceDir>${basedir}/src/main/scala</sourceDir>
+                    <testSourceDir>${basedir}/src/test/scala</testSourceDir>
                 </configuration>
                 <executions>
                     <execution>
