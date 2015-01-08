@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <scoverage.plugin.version>1.0.1</scoverage.plugin.version>
+        <scoverage.plugin.version>1.0.2</scoverage.plugin.version>
         <!--<scala.version>2.10.3</scala.version>-->
     </properties>
 
