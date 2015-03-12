@@ -110,6 +110,9 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <excludedFiles>.*Object</excludedFiles>
+                </configuration>
             </plugin>
         </plugins>
     </build>

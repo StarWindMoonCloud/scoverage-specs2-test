@@ -13,3 +13,10 @@ class SampleTest extends Specification {
     }
   }
 }
+
+trait clean extends After {
+  def cleanAction() = {
+    println("clean action")
+  }
+  def after = cleanAction()
+}
